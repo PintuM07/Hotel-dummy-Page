@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your E-commerce Store</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to an external stylesheet -->
+    <script src="scripts.js" defer></script> <!-- Link to an external script file -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="textarea">Welcome to Hotel Mahato</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="home" class="d-flex align-items-center justify-content-center">
+        <div class="main_image">
+            <img src="images/pexels-donaldtong94-189296.jpg" alt="Our Hotel">
+        </div>
+    </section>
+    <main>
+        <section id="glance" class="container my-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card align-items-center">
+                        <p class="heading">Take a look</p>
+                        <p>Powered By</p>
+                        <p>Room 1</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card align-items-center">
+                        <p class="heading">Take a look</p>
+                        <p>Powered By</p>
+                        <p>Room 2</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card align-items-center">
+                        <p class="heading">Take a look</p>
+                        <p>Powered By</p>
+                        <p>Room 3</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card align-items-center">
+                        <p class="heading">Take a look</p>
+                        <p>Powered By</p>
+                        <p>Room 4</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="container my-5">
+            <h2>About Us</h2>
+            <p>Welcome to our e-commerce store. We offer the best products at great prices.</p>
+        </section>
+        <section id="contact" class="container my-5">
+            <h2>Contact Us</h2>
+            <form action="contact_form_submission.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" class="form-control" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer class="text-center py-3">
+        <p>&copy; 2024 Your E-commerce Store. All rights reserved.</p>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
